@@ -14,7 +14,6 @@
 		C40A184C1886640D00C62C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40A184B1886640D00C62C9B /* main.m */; };
 		C40A18501886640D00C62C9B /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40A184F1886640D00C62C9B /* CRAppDelegate.m */; };
 		C40A18531886640D00C62C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40A18511886640D00C62C9B /* Main.storyboard */; };
-		C40A18561886640D00C62C9B /* CRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40A18551886640D00C62C9B /* CRViewController.m */; };
 		C40A18581886640D00C62C9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40A18571886640D00C62C9B /* Images.xcassets */; };
 		C40A185F1886640D00C62C9B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40A185E1886640D00C62C9B /* XCTest.framework */; };
 		C40A18601886640D00C62C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40A183F1886640D00C62C9B /* Foundation.framework */; };
@@ -49,8 +48,6 @@
 		C40A184E1886640D00C62C9B /* CRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
 		C40A184F1886640D00C62C9B /* CRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
 		C40A18521886640D00C62C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C40A18541886640D00C62C9B /* CRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRViewController.h; sourceTree = "<group>"; };
-		C40A18551886640D00C62C9B /* CRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRViewController.m; sourceTree = "<group>"; };
 		C40A18571886640D00C62C9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C40A185D1886640D00C62C9B /* onlyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onlyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40A185E1886640D00C62C9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -131,8 +128,6 @@
 				C40A184E1886640D00C62C9B /* CRAppDelegate.h */,
 				C40A184F1886640D00C62C9B /* CRAppDelegate.m */,
 				C40A18511886640D00C62C9B /* Main.storyboard */,
-				C40A18541886640D00C62C9B /* CRViewController.h */,
-				C40A18551886640D00C62C9B /* CRViewController.m */,
 				C40A18571886640D00C62C9B /* Images.xcassets */,
 				C40A18461886640D00C62C9B /* Supporting Files */,
 				C463A56C188B64E600689EC6 /* CRPortaint.h */,
@@ -271,7 +266,6 @@
 			files = (
 				C40A184C1886640D00C62C9B /* main.m in Sources */,
 				C40A18501886640D00C62C9B /* CRAppDelegate.m in Sources */,
-				C40A18561886640D00C62C9B /* CRViewController.m in Sources */,
 				C463A56B188B64AC00689EC6 /* CRLandScapeRight.m in Sources */,
 				C463A568188B646000689EC6 /* CRCustomerNavigationController.m in Sources */,
 				C463A56E188B64E600689EC6 /* CRPortaint.m in Sources */,

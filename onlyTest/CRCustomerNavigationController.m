@@ -35,27 +35,26 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 -(BOOL)shouldAutorotate
 {
     NSLog(@"orientations is %@", [[self.viewControllers lastObject] shouldAutorotate]?@"YES":@"NO");
     NSLog(@"title is %@", [[self.viewControllers lastObject] title]);
     return [[self.viewControllers lastObject] shouldAutorotate];
 }
-*/
+
 
 -(NSUInteger)supportedInterfaceOrientations
 {
-    NSLog(@"orientations is %lu", (unsigned long)[[self.viewControllers lastObject] supportedInterfaceOrientations]);
     return [[self.viewControllers lastObject] supportedInterfaceOrientations];
 }
 
-/*
+
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
 {
     return [[self.viewControllers lastObject] preferredInterfaceOrientationForPresentation];
 }
-*/
+
 
 
 @end
